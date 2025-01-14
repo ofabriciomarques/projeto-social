@@ -30,10 +30,32 @@ section#telefone {
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
 
+
 iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-    width: 250px;
-    height: 450px;
+
+    width: 267px;
+    height: 471px;
+}
+
+section#redessociais {
+    text-align: right;
+}
+
+section#redessociais img {
+    width: 50px;
+    margin: 8px;
+
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px black;
+    box-sizing: border-box;
+}
+
+section#redessociais img:hover {
+    border: 2px solid gainsboro;
+    transform: translate(-10%);
+    transition: transform 500ms, border 250ms;
+    box-shadow: 4px 4px 4px black;
 }
